@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="AddItemActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleEditText"
+        android:hint="@string/title"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionEditText"
+        android:hint="@string/description"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/priorityTextView"
+        android:text="@string/priority"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="4dp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/priorityCheckBox"
+        android:layout_marginTop="8dp"
+        android:text="@string/important"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
+
+</LinearLayout>
