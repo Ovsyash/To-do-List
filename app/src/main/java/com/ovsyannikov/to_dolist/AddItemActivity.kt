@@ -24,8 +24,6 @@ class AddItemActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_item)
 
-        supportActionBar?.setHomeAsUpIndicator(R.drawable.back)
-
         titleEditText = findViewById(R.id.titleEditText)
         descriptionEditText = findViewById(R.id.descriptionEditText)
         priorityCheckBox = findViewById(R.id.priorityCheckBox)

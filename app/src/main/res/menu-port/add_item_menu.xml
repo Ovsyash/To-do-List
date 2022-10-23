@@ -6,6 +6,7 @@
     <item
         android:id="@+id/save_item"
         android:title="@string/add"
+        android:icon="@drawable/back"
         app:showAsAction="always">
     </item>
 
